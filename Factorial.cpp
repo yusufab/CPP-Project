@@ -19,5 +19,5 @@ int main(){
     cin.getline(name, 50);
     cout << name << " ,the factorial of which number do you want to calculate? ";
     cin >> f;
-    court << f << "factorial is " << Factorial(f) << "."<<  endl;
+    cout << f << " factorial is " << Factorial(f) << "."<<  endl;
 }
