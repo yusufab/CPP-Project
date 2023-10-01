@@ -17,7 +17,7 @@ int main(){
     int f;
     cout << "Hello, what should I call you? " ;
     cin.getline(name, 50);
-    cout << name << " the factorial of which number do you want to calculate? ";
+    cout << name << " ,the factorial of which number do you want to calculate? ";
     cin >> f;
-    cout << Factorial(f) << endl;
+    court << f << "factorial is " << Factorial(f) << "."<<  endl;
 }
